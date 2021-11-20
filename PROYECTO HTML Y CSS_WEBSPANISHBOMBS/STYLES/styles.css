@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+/* INICIO DEL HEADER */
+.menu-navegacion{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    height: 60px;
+    width: 100%;
+    border-bottom: 3px solid orange;
+    align-items: center;
+}
+
+#pills-tab-home{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#pills-tab{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    border:none;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover{
+        background-color: orange;
+}
+
+#pills-home-tab:hover{
+    background-color: black;
+}
+/* HASTA AQUÍ EL HEADER */
+/* INICIO DE CONTENIDO INICIAL: LOGO Y RRSS */
+.tab-content{
+    background-color: black;
+    max-width: 100xw;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.presentacion-redes{
+    display: flex;
+    justify-content: center;
+}
+/* FIN DE CONTENIDO INICIAL: LOGO Y RRSS */
+/* INICIO DE CONTENIDO ARTISTAS */
+.img-artistas{
+    display: flex;
+    align-items: center;
+    margin: 20px; 
+    flex-direction: column;
+    width: 100%;
+}
+
+/* .container-artistas1{
+    flex-direction: row;
+
+}
+
+.container-artistas2{
+flex-direction: row;
+
+} */
+/* FIN DE CONTENIDO ARTISTAS */
+
+
+/* INICIO SECCIÓN SPANISH BOMBS*/
+.menu-spanish-bombs{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 3em;
+    align-items: center;
+}
+
+/* INICIO CONTACTO*/
+.nos-encontraras{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*FIN CONTACTO */
+
+footer{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #e5e5e5;
+    margin-top: 0.7rem;
+    margin-right: 1.5rem;
+}

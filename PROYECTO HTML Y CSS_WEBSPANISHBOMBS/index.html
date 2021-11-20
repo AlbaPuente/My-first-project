@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./STYLES/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>💣Spanish Bombs Management💣</title>
+</head>
+<body>
+    <!-- SEPARACIÓN EN DOS LISTAS PARA PODER COLOCAR EL LOGO EN LATERAL IZQ Y EL RESTO DE MENÚ EN LATERAL DERECHO -->
+    <div class="container-fluid">
+        <header class="menu-navegacion">
+            <!-- INICIO LISTA LOGO -->
+            <ul class="nav nav-pills mb-3" id="pills-tab-home" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><img src="./IMG/logo_spanish_blanco.jpg" alt="Home" width="60" height="50"></button>
+                </li>
+            </ul>
+            <!-- FIN LISTA LOGO -->
+            <!-- INICIO LISTA DE MENÚ DE NAVEGACIÓN -->
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                        id="pills-artistas-tab" 
+                        data-bs-toggle="pill" 
+                        data-bs-target="#pills-artistas" 
+                        type="button" 
+                        role="tab" 
+                        aria-controls="pills-artistas" 
+                        aria-selected="false">ARTISTAS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                        id="pills-bombs-tab" 
+                        data-bs-toggle="pill" 
+                        data-bs-target="#pills-bombs" 
+                        type="button" role="tab" 
+                        aria-controls="pills-bombs" 
+                        aria-selected="false">SPANISH BOMBS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                        id="pills-contacto-tab" 
+                        data-bs-toggle="pill" 
+                        data-bs-target="#pills-contacto" 
+                        type="button" 
+                        role="tab" 
+                        aria-controls="pills-contacto" 
+                        aria-selected="false">CONTACTO</button>
+                    </li>
+            </ul>
+            <!-- FIN LISTA DE MENÚ -->
+        </header>
+        <!-- CONTENIDO INICIAL CON NAVBAR FIJA CON LOGO QUE SI PINCHAS TE DEVUELVE A LA HOME Y OPCIONES DE MENÚ-->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="presentacion">
+                    <div class="presentacion-imagen">
+                        <img src="./IMG/LogoGlitchSB.gif" alt="Spanish Bombs">
+                    </div>
+                    
+                    <div class="presentacion-redes">
+                        <a class="separacion-fb" href="https://www.facebook.com/spanishbombsmanagement/" target="Facebook">
+                            <img alt="Siguenos en Facebook" src="./IMG/LogoFacebook.png" width=32 height=32>
+                        </a>
+
+                        <a href="https://www.twitter.com/spanishbombsmgt" target="Twitter">
+                        <img alt="Siguenos en Twitter" src="./IMG/LogoTwitter.png" width=32 height=32>
+                        </a>
+
+                        <a 
+                        href="https://www.instagram.com/spanishbombsmgt/" target="Instagram">
+                        <img alt="Siguenos en Instagram" src="./IMG/LogoInstagram.png" width=32 height=32>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--FIN DEL CONTENIDO INICIAL-->
+            <!--INICIO DE PÁGINA ARTISTAS-->
+            <div class="menu-artistas" id="pills-artistas" role="tabpanel" aria-labelledby="pills-artistas-tab">
+              <!--AÑADO DIV DE PRUEBA CON CLASS IMG-ARTISTAS-->
+              <div class="img-artistas">
+                  <div class="container-artistas-uno">
+                    <img src="./IMG x1000/1.ANNI_1000.png" alt="Anni B Sweet" width="300" height="300">
+                    <img src="./IMG x1000/2.FANGORIA_1000.png" alt="Fangoria"width="300" height="300" >
+                    <img src="./IMG x1000/3.JOSELE SANTIAGO_1000.png" alt="Josele Santiago" width="300" height="300">
+                    <img src="./IMG x1000/4.KIKO VENENO_1000.png" alt="Kiko Veneno" width="300" height="300">
+                </div>
+                <div class="container-artistas-dos">
+                    <img src="./IMG x1000/5.KORA_1000.png" alt="Kora" width="300" height="300">
+                    <img src="./IMG x1000/6.LOS ENEMIGOS_1000.png" alt="Los Enemigos" width="300" height="300">
+                    <img src="./IMG x1000/7.LORI MEYERS_1000.png" alt="Lori Meyers" width="300" height="300">
+                    <img src="./IMG x1000/8.NANCYS RUBIAS_1000.png" alt="Nancy Rubias" width="300" height="300">
+                </div>
+              </div>
+            </div>
+            <!--FIN PÁGINA ARTISTAS-->
+
+            <!--INICIO DE PÁGINA ARTISTAS-->
+            <div class="menu-spanish-bombs" id="pills-bombs" role="tabpanel" aria-labelledby="pills-bombs-tab">
+                <h2>SPANISH BOMBS</h2>
+                <p>
+                    Es una agencia de management, contratación y producción fundada y dirigida por Carlos Mariño. 
+                    En activo desde hace más de 30 años, puso en marcha la agencia en 1995 como oficina de producción en territorio gallego, tras acumular experiencia organizando giras en la zona noroeste. 
+                    Desde finales de los ochenta y hasta el cambio de siglo fue el responsable de festivales como Rock no Camiño, FestiValdeorras, Festa do Queixo y Festa dos Botes, desarrollando de forma precursora un modelo de negocio que se ha consolidado en España hasta adquirir rango de industria. 
+                    El gigantesco éxito de Dover –fue su manager durante catorce años– le llevó a trasladar cuartel general desde Santiago a Madrid en 1997. Desde entonces, y con la ayuda imprescindible de Angeles Velasco, experta en el sector de la contratación, han trabajado con algunos de los artistas clave en el desarrollo de la escena independiente en nuestro país, como Los Planetas, Sexy Sadie, Najwa, L.A., Delorean o los mencionados Dover. 
+                    Actualmente la agencia representa o gestiona el booking de Fangoria, Lori Meyers, Kiko Veneno, Los Enemigos, Nancys Rubias, Anni B Sweet, Josele Santiago y su última incorporación al roster, Kora.
+                </p>
+            </div>
+            <!--INICIO DE PÁGINA CONTACTO-->
+            <div class="tab-pane fade" id="pills-contacto" role="tabpanel" aria-labelledby="pills-contacto-tab">
+                <div class="nos-encontraras">
+                    <h3>Nos encontrarás en</h3>
+                    <p>C/Costanilla de los ángeles, 12. Escalera 1, 1ºA  <br>
+                    28013, Madrid
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12150.15909096324!2d-3.7080141!3d40.4190452!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x531c4735d854eeb1!2sSpanish%20Bombs%20S%20L!5e0!3m2!1ses-419!2ses!4v1637352861755!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <!--FOOTER FIJO-->
+        <footer>
+            <span>Spanish Bombs S.L</span>
+            <span>Aviso Legal</span>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
